@@ -14,5 +14,17 @@ int main() {
     }
     printf("\n");
 
+    // Bispo: Move 5 casas na diagonal (cima/direita) usando WHILE
+    printf("Movimento do Bispo (5 casas na diagonal cima/direita):\n");
+    int casas_bispo = 5;
+    int contador_bispo = 0;
+    
+    while(contador_bispo < casas_bispo) {
+        printf("Cima, Direita\n");
+        contador_bispo++;
+    }
+    printf("\n");
+    
+
     return 0;
 }
